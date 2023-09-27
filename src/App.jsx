@@ -7,6 +7,11 @@ function App() {
   return (
     <>
       
+      <div style={{margin:"40px"}}>
+        <button onClick={() => setCount((count) => count + 1)}>
+          count is {count}
+        </button>
+      </div>
     </>
   )
 }
