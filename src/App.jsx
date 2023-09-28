@@ -1,17 +1,28 @@
-import { useState } from 'react'
 import './App.css'
+import About from './components/AboutMe'
+import Navigation from './components/NavBar'
+import Proyectos from './components/Proyectos'
+import Educacion from './components/Educacion'
+import Habilidades from './components/Habilidades'
+import Contact from './components/Contacto'
+
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
+      <Navigation/>
+      <br/>
       
-      <div style={{margin:"40px"}}>
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-      </div>
+      <br/>
+      <Proyectos/>
+      <br/>
+      
+      <br/>
+      <Habilidades/>
+      <br/>
+      <Contact/>
+      <br/>
     </>
   )
 }
