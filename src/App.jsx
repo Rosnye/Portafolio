@@ -11,15 +11,7 @@ function App() {
 
   return (
     <>
-      <Navigation/>
-      <br/>
-      
-      <br/>
-      <Proyectos/>
-      <br/>
-      
-      <br/>
-      <Habilidades/>
+      <Navigation/>      
       <br/>
       <Contact/>
       <br/>

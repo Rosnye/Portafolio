@@ -6,6 +6,8 @@ import TabList from '@mui/lab/TabList';
 import TabPanel from '@mui/lab/TabPanel';
 import About from '../AboutMe';
 import Educacion from '../Educacion';
+import Habilidades from '../Habilidades';
+import Proyectos from '../Proyectos';
 
 const Navigation = () => {
 
@@ -24,14 +26,12 @@ const Navigation = () => {
             <Tab label="Skills" value="2" />
             <Tab label="Education" value="3" />
             <Tab label="Projects" value="4" />
-            <Tab label="Contact" value="5" />
           </TabList>
         </Box>
         <TabPanel value="1"><About/></TabPanel>
-        <TabPanel value="2">Habilidades</TabPanel>
+        <TabPanel value="2"><Habilidades/></TabPanel>
         <TabPanel value="3"><Educacion/></TabPanel>
-        <TabPanel value="4">Proyectos</TabPanel>
-        <TabPanel value="5">Contacto</TabPanel>
+        <TabPanel value="4"><Proyectos/></TabPanel>
       </TabContext>
     </Box>
     )
