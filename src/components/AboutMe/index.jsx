@@ -1,12 +1,12 @@
-import { Box } from "@mui/material"
-
+import { Box, Container } from "@mui/material"
+import "./about.css"
 
 
 
 const About = () => {
     return(
-        <>
-            <Box>
+        <Container>
+            <Box className="caja">
                 <p>
                     I am a junior React JS developer certified by Alura Latam, with a background in customer service, 
                     and a strong foundation in social and communication skills. In addition to my technical expertise, 
@@ -15,8 +15,10 @@ const About = () => {
                     Outside of my professional life, I am an active individual, engaging in sports and music, 
                     demonstrating a well-rounded and dynamic personality.
                 </p>
+                <img src="https://github.com/rosnye.png" alt="Profile image" className="perfil" />
             </Box>
-        </>
+        </Container>
+
     )
 }
 

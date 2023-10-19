@@ -25,13 +25,13 @@ const Navigation = () => {
             <Tab label="About Me" value="1" />
             <Tab label="Skills" value="2" />
             <Tab label="Education" value="3" />
-            <Tab label="Projects" value="4" />
+
           </TabList>
         </Box>
         <TabPanel value="1"><About/></TabPanel>
         <TabPanel value="2"><Habilidades/></TabPanel>
         <TabPanel value="3"><Educacion/></TabPanel>
-        <TabPanel value="4"><Proyectos/></TabPanel>
+
       </TabContext>
     </Box>
     )
