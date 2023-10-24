@@ -1,8 +1,10 @@
+import { Container } from "@mui/material"
+
 const Proyectos = () => {
     return(
-        <>
-            Proyectos
-        </>
+        <Container>
+            
+        </Container>
     )
 }
 
