@@ -4,7 +4,7 @@ const Proyectos = () => {
     return(
         <Container>
             <Box style={{display:"flex",justifyContent:"space-evenly"}}>
-                <img src="src\assets\react.svg" alt="react svg" style={{height:"10rem"}}/>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/512px-React.svg.png" alt="react svg" style={{height:"10rem"}}/>
                 <h2 style={{display:"flex", justifyContent:"center", width:"50px", fontSize:"40px"}}>+</h2>
                 <img src="https://www.svgrepo.com/show/374167/vite.svg" alt="vite svg" style={{height:"10rem"}} />
             </Box>
